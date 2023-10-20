@@ -1,0 +1,75 @@
+.about-me {
+  background-image: url(../img/fons/IMG_9578.JPG);
+  padding-top: 10px;
+  /* background-repeat: repeat; */
+  background-size: cover;
+}
+
+.about-me__photo {
+  margin-bottom: 10px;
+}
+.about-me__title-img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.about-me__text-box {
+  padding: 0 15px;
+  color: #f7f7f5;
+}
+.about-me__text-list {
+  padding: 10px 15px;
+}
+.about-me__text-item {
+  display: flex;
+  align-items: start;
+}
+.about-me__text-item:last-child {
+  margin-top: 5px;
+}
+.about-me__text-item-star {
+  width: 20px;
+}
+
+@media (min-width: 767px) {
+  .about-me {
+    padding-bottom: 15px;
+
+    background-repeat: repeat;
+    background-size: contain;
+  }
+  .about-me-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    padding-top: 5px;
+    /* border: 1px solid #dc0d0d; */
+  }
+  .about-me__photo {
+    width: 400px;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .about-me {
+    padding-bottom: 15px;
+
+    background-repeat: repeat;
+    background-size: contain;
+  }
+  .about-me-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    padding-top: 5px;
+    /* border: 1px solid #dc0d0d; */
+  }
+  .about-me__photo {
+    width: 400px;
+    margin-bottom: 0;
+  }
+}
