@@ -1,0 +1,22 @@
+.about-course__title-img {
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.about-course__list {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.about-course__item {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.about-course__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.about-course__item-number {
+    width: 50px;
+}
