@@ -1,0 +1,18 @@
+.footer__list {
+    color: #f7f7f5;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.footer__item:not(:last-child) {
+    margin-bottom: 8px;
+}
+.contacts__list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.contacts__img {
+    width: 50px;
+}
